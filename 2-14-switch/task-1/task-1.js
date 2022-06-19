@@ -1,20 +1,18 @@
-// Напишите "if", аналогичный "switch" https://learn.javascript.ru/task/rewrite-switch-if-else
+// Переписать условия "if" на "switch" https://learn.javascript.ru/task/rewrite-if-switch
 
-// Напишите if..else, соответствующий следующему switch:
+const number = +prompt('Введите число между 0 и 3', '');
 
-// switch (browser) {
-//   case 'Edge':
-//     alert( "You've got the Edge!" );
-//     break;
+switch(number) {
+  case 0:
+    alert('Вы ввели число 0');
+    break;
 
-//   case 'Chrome':
-//   case 'Firefox':
-//   case 'Safari':
-//   case 'Opera':
-//     alert( 'Okay we support these browsers too' );
-//     break;
+  case 1:
+    alert('Вы ввели число 1');
+    break;
 
-//   default:
-//     alert( 'We hope that this page looks ok!' );
-// }
-
+  case 2:
+  case 3:
+    alert('Вы ввели число 2, а может и 3');
+    break;
+}
