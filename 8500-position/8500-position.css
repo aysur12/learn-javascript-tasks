@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  width: 100%;
+  min-height: 1000px;
+}
+
+.bg-box,
+.content-box {
+  grid-area: 1/-1;
+}
+
+.bg-box {
+  z-index: 1;
+  background-color: #aef;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 180px;
+  padding: 2em;
+}
+
+.btn {
+  max-width: 100%;
+}
