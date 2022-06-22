@@ -18,7 +18,7 @@ test('a[href$=".zip"]', 1);
 test('[data-action~="delete"]', 2);
 
 // Найти все элементы, у которых ЕСТЬ атрибут data-action,
-// но он НЕ содержащит delete в списке (через пробел)
+// но он НЕ содержащий delete в списке (через пробел)
 test('[data-action]:not([data-action~="delete"])', 1);
 
 // Выбрать все чётные элементы списка #messages
