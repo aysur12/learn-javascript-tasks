@@ -1,0 +1,7 @@
+/* Отступ между парами, размером со строку
+https://learn.javascript.ru/task/margin-between-pairs
+*/
+
+li:nth-child(2n+3) {
+  margin-top: 1.5em;
+}

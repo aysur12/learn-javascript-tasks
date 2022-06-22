@@ -1,0 +1,7 @@
+/* Отступ между элементами, размер одна строка
+https://learn.javascript.ru/task/margin-between-pairs-size-1
+*/
+
+li + li {
+  margin-top: 1.5em;
+}
