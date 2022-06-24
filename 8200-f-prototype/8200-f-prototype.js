@@ -13,16 +13,16 @@ console.log(monkey.name);
 
 // Пример функции-конструктора, с которой такой код поведёт себя неправильно
 
-function Animal(name) {
-  this.name = name;
-}
+// function Animal(name) {
+//   this.name = name;
+// }
 
-Animal.prototype = {};
+// Animal.prototype = {};
 
-const rabbit = new Animal('Bunny');
-const monkey = new rabbit.constructor('Chucky');
+// const rabbit = new Animal('Bunny');
+// const monkey = new rabbit.constructor('Chucky');
 
-console.log(rabbit.name);
-console.log(monkey.name);
+// console.log(rabbit.name);
+// console.log(monkey.name);
 
 
