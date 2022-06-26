@@ -1,0 +1,9 @@
+.note-block {
+  position: fixed;
+  z-index: 1;
+  padding: 10px;
+  border: 1px solid red;
+  background: white;
+  text-align: center;
+  font: italic 14px serif;
+}
